@@ -3,7 +3,7 @@
 #include<strings.h>
 
 // to implement : 
-// 1) unit detector
+// 1) unit detector (done)
 // 2) add support to decimals(done)
 
 float get_num(float* convert,char** unit){
