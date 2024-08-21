@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+
 #define T 9940 
 #define NUM_ELEMENTS	1000
 
