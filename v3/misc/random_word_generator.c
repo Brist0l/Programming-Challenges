@@ -29,7 +29,7 @@ int main(){
 	max_word_len = rand_val * WORD_LEN;	
 	max_line_len = rand_val * LINE_LEN;
 	
-	printf("Max word limit:%d\tMax line limit:%d\n",max_word_len,max_line_len);
+//	printf("Max word limit:%d\tMax line limit:%d\n",max_word_len,max_line_len);
 	for(k = 0;k < max_line_len;k++){
 		// varies the range of chars from 0-max_word_len
 		int rand_word_len = max_word_len - (rand()/((RAND_MAX + 1u)/max_word_len));
